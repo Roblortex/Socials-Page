@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    height:580px;
+    width: 380px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile-pic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.profile-pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.title {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.loc-text {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .Youtube button,
+.buttons .GitHub button,
+.buttons .Facebook button,
+.buttons .LinkedIn button,
+.buttons .Instagram button {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 7px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    width: 290px;
+    height: 45px;
+}
+
+.buttons button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
